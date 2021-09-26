@@ -1,0 +1,9 @@
+.investor-summery{
+    padding: 5px;
+    color: wheat;
+    font-size: 20px;
+    background: linear-gradient(to right, #114357, #f29492);
+}
+.investor-summery img{
+    width: 45px;   
+}

@@ -1,0 +1,21 @@
+.investor-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.investor-list-container {
+    border-right:1px solid lightcoral ;
+    padding: 25px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-row-gap: 20px;
+}
+.cart-container h3{
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(118, 230, 44);
+    padding: 5px;
+    font-size: 35px;
+    background: url(./../../h1bg.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
