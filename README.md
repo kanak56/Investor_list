@@ -1,6 +1,5 @@
-#Welcome to My IT Firm Website
+# Creating an Information Technology Firm
 
-Hellow 
 ## Available Scripts
 
 In the project directory, you can run:
