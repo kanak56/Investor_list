@@ -1,6 +1,7 @@
 .investor-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    border-top:2px solid lightcoral ;
 }
 .investor-list-container {
     border-right:1px solid lightcoral ;

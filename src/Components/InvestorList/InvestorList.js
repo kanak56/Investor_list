@@ -11,6 +11,7 @@ const InvestorList = (props) => {
     return (
         <div className='investorlist'>
             <div className='investor'>
+                <hr />
                 <img src={img} alt="" srcSet="" />
                 <h2>Name: {name}</h2>
                 <p>Email: {email}</p>
@@ -19,6 +20,7 @@ const InvestorList = (props) => {
                 <p>Website: {website}</p>
                 <h4>Amount: {amount}</h4>
                 <button onClick={() => props.hadleAddToCart(props.investor)} className='select-btn'> <FontAwesomeIcon className='font-icon' icon={faHandshake} /> Select</button>
+                <hr />
             </div>
         </div>
     );

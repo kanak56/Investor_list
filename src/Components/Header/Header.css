@@ -1,6 +1,4 @@
 .nav{
-    background: url(./../../navbg.jpg);
-    background-size: 100%;
     padding: 10px;
     color: rgb(253, 247, 238);
 }
@@ -11,7 +9,7 @@
     background: url(./../../h1bg.jpg);
     -webkit-background-clip: text;
     background-position: 0 0;
-    animation: back 20s linear infinite;
+    animation: back 30s linear infinite;
 }
 @keyframes back{
     100%{

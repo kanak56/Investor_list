@@ -6,26 +6,29 @@ const Cart = (props) => {
     // distructing
     const { cart } = props;
     let total = 0;
-    let name = [];
-    let img = [];
+    let displayExtraName = [];
     for (const items of cart) {
         total = total + items.amount;
-        name = items.name;
-        img = items.img;
+        let totalExtra = ` ` + items.name + '   :   ' + items.amount;
+        displayExtraName.push(totalExtra);
+
     }
-    console.log(cart);
+    console.log(displayExtraName);
+    // console.log(cart);
 
 
     return (
         <div>
-            <h3>Selected Investors</h3>
-            <div className='investor-summery'>
+            <hr />
+            <hr />
+            <h3>Selected Investors</h3> <hr />
+            <hr />
+            <div className='investor-summery' id='extra'>
                 <h4>Investors Selected: {cart.length} </h4>
                 <p>Amount Will be : {total}</p> <br />
-                <div id='extra'>
-                    <p>{name}</p>
-                    <img src={img} alt="" srcSet="" />
-                </div>
+                <p className='displayExtra'>{displayExtraName}</p>
+
+                <hr />
             </div>
         </div>
     );
