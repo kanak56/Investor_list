@@ -1,10 +1,10 @@
 # Creating an Information Technology Firm
-
+Welcome to my it firm based website
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can see:
 
-### `npm start`
+### `Investor List`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
