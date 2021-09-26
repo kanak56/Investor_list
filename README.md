@@ -1,6 +1,6 @@
 # Creating an Information Technology Firm
 Welcome to my it firm based website
-## Available Information
+## Available Useless Data Information
 
 In this webiste, you can see:
 
