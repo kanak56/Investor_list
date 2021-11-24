@@ -32,3 +32,6 @@ Information that are use in this website are all fake and just use for education
 ### Making a Progressive Web App
 This is just the begining of my web development journey.. 
 
+####Live Site Link
+https://hopeful-knuth-64f77d.netlify.app/
+
